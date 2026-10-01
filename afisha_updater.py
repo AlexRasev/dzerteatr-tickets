@@ -15,7 +15,7 @@ TICKETS_FILE = "afisha_data.json"
 
 # ===== ФУНКЦИЯ СОЗДАНИЯ ДРАЙВЕРА =====
 def get_driver():
-    """Создаёт драйвер Selenium (Selenium Manager сам найдёт ChromeDriver)"""
+    """Создаёт драйвер Selenium"""
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
@@ -65,10 +65,49 @@ def get_sessions_from_afisha():
         driver.quit()
         return []
 
+# ===== ПОЛУЧЕНИЕ НАЗВАНИЯ СПЕКТАКЛЯ СО СТРАНИЦЫ =====
+def get_event_name(driver, session_url):
+    """
+    Получает название спектакля со страницы сеанса.
+    Ищет в <h1> или <title>.
+    """
+    try:
+        driver.get(session_url)
+        time.sleep(2)
+
+        # Пробуем <h1>
+        try:
+            h1 = driver.find_element(By.TAG_NAME, "h1")
+            name = h1.text.strip()
+            if name:
+                # Убираем возрастной ценз в конце (например, "Наливные яблочки. 12+")
+                name = re.sub(r'\s*\d+\+\s*$', '', name).strip()
+                return name
+        except:
+            pass
+
+        # Пробуем <title>
+        try:
+            title = driver.title
+            if title:
+                # "Купить билеты на 03 октября 17:00 «Наливные яблочки.» — ..."
+                match = re.search(r'«(.+?)»', title)
+                if match:
+                    name = match.group(1).strip()
+                    # Убираем точку в конце
+                    name = name.rstrip('.')
+                    return name
+        except:
+            pass
+
+        return None
+    except Exception as e:
+        print(f"   ⚠️ Не удалось получить название: {e}")
+        return None
+
 # ===== ПАРСИНГ МЕСТ (УНИВЕРСАЛЬНЫЙ) =====
-def get_available_places(session_url):
+def get_available_places(driver, session_url):
     """Получает количество свободных мест для сеанса"""
-    driver = get_driver()
     try:
         driver.get(session_url)
         time.sleep(5)
@@ -118,7 +157,7 @@ def get_available_places(session_url):
         if available > 0 and not zones:
             zones["Партер"] = available
 
-        driver.quit()
+        driver.switch_to.default_content()
 
         return {
             "available": available,
@@ -127,7 +166,6 @@ def get_available_places(session_url):
         }
     except Exception as e:
         print(f"   ❌ Ошибка: {e}")
-        driver.quit()
         return None
 
 # ===== СОРТИРОВКА ПО ДАТЕ =====
@@ -192,24 +230,37 @@ def update_all_sessions():
     updated_count = 0
     total = len(sessions)
 
-    for i, session in enumerate(sessions, 1):
-        session_id = str(session['id'])
-        print(f"\n[{i}/{total}] Сеанс #{session_id}: {session['title'][:40]}...")
+    # ОДИН драйвер для всех сеансов
+    driver = get_driver()
 
-        result = get_available_places(session['url'])
+    try:
+        for i, session in enumerate(sessions, 1):
+            session_id = str(session['id'])
+            print(f"\n[{i}/{total}] Сеанс #{session_id}: {session['title'][:40]}...")
 
-        if result:
-            existing_data[session_id] = {
-                'title': session['title'],
-                'url': session['url'],
-                'available': result['available'],
-                'zones': result['zones'],
-                'last_updated': result['last_updated']
-            }
-            updated_count += 1
-            print(f"   ✅ {result['available']} мест")
-        else:
-            print(f"   ⚠️ Данные не получены")
+            # 1. Получаем название спектакля
+            event_name = get_event_name(driver, session['url'])
+            if event_name:
+                print(f"   📝 Название: {event_name}")
+
+            # 2. Получаем места
+            result = get_available_places(driver, session['url'])
+
+            if result:
+                existing_data[session_id] = {
+                    'title': session['title'],
+                    'event_name': event_name or session['title'],  # ← НОВОЕ ПОЛЕ
+                    'url': session['url'],
+                    'available': result['available'],
+                    'zones': result['zones'],
+                    'last_updated': result['last_updated']
+                }
+                updated_count += 1
+                print(f"   ✅ {result['available']} мест")
+            else:
+                print(f"   ⚠️ Данные не получены")
+    finally:
+        driver.quit()
 
     with open(TICKETS_FILE, 'w', encoding='utf-8') as f:
         json.dump(existing_data, f, indent=2, ensure_ascii=False)
