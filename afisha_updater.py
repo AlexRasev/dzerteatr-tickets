@@ -67,10 +67,7 @@ def get_sessions_from_afisha():
 
 # ===== ПОЛУЧЕНИЕ НАЗВАНИЯ СПЕКТАКЛЯ СО СТРАНИЦЫ =====
 def get_event_name(driver, session_url):
-    """
-    Получает название спектакля со страницы сеанса.
-    Ищет в <h1> или <title>.
-    """
+    """Получает название спектакля со страницы сеанса."""
     try:
         driver.get(session_url)
         time.sleep(2)
@@ -80,8 +77,9 @@ def get_event_name(driver, session_url):
             h1 = driver.find_element(By.TAG_NAME, "h1")
             name = h1.text.strip()
             if name:
-                # Убираем возрастной ценз в конце (например, "Наливные яблочки. 12+")
+                name = name.split('\n')[0].strip()   # ← ЭТА СТРОКА
                 name = re.sub(r'\s*\d+\+\s*$', '', name).strip()
+                name = name.rstrip('.')
                 return name
         except:
             pass
@@ -90,12 +88,9 @@ def get_event_name(driver, session_url):
         try:
             title = driver.title
             if title:
-                # "Купить билеты на 03 октября 17:00 «Наливные яблочки.» — ..."
                 match = re.search(r'«(.+?)»', title)
                 if match:
-                    name = match.group(1).strip()
-                    # Убираем точку в конце
-                    name = name.rstrip('.')
+                    name = match.group(1).strip().rstrip('.')
                     return name
         except:
             pass
@@ -104,7 +99,6 @@ def get_event_name(driver, session_url):
     except Exception as e:
         print(f"   ⚠️ Не удалось получить название: {e}")
         return None
-
 # ===== ПАРСИНГ МЕСТ (УНИВЕРСАЛЬНЫЙ) =====
 def get_available_places(driver, session_url):
     """Получает количество свободных мест для сеанса"""
