@@ -198,7 +198,7 @@
       "Партер": 5,
       "Балкон": 152
     },
-    "last_updated": "2026-10-28 17:00:55"
+    "last_updated": "2026-10-28 17:30:52"
   },
   "940": {
     "title": "31 октября (сб) 17:00",
@@ -206,27 +206,27 @@
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s940",
     "available": 0,
     "zones": {},
-    "last_updated": "2026-10-28 17:01:07"
+    "last_updated": "2026-10-28 17:31:04"
   },
   "959": {
     "title": "01 ноября (вс) 11:00",
     "event_name": "Аленький цветочек",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s959",
-    "available": 168,
+    "available": 167,
     "zones": {
-      "Партер (детский)": 168
+      "Партер (детский)": 167
     },
-    "last_updated": "2026-10-28 17:01:18"
+    "last_updated": "2026-10-28 17:31:16"
   },
   "960": {
     "title": "01 ноября (вс) 17:00",
     "event_name": "Капитанская дочка",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s960",
-    "available": 76,
+    "available": 79,
     "zones": {
-      "Балкон": 76
+      "Балкон": 79
     },
-    "last_updated": "2026-10-28 17:01:58"
+    "last_updated": "2026-10-28 17:31:57"
   },
   "966": {
     "title": "05 ноября (чт) 19:00",
@@ -234,7 +234,7 @@
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s966",
     "available": 0,
     "zones": {},
-    "last_updated": "2026-10-28 17:02:37"
+    "last_updated": "2026-10-28 17:32:36"
   },
   "961": {
     "title": "06 ноября (пт) 18:00",
@@ -245,7 +245,7 @@
       "Партер": 182,
       "Балкон": 197
     },
-    "last_updated": "2026-10-28 17:02:48"
+    "last_updated": "2026-10-28 17:32:49"
   },
   "962": {
     "title": "07 ноября (сб) 17:00",
@@ -255,17 +255,17 @@
     "zones": {
       "Балкон": 88
     },
-    "last_updated": "2026-10-28 17:03:00"
+    "last_updated": "2026-10-28 17:33:02"
   },
   "963": {
     "title": "08 ноября (вс) 11:00",
     "event_name": "Царевна Дуся",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s963",
-    "available": 172,
+    "available": 170,
     "zones": {
-      "Партер (детский)": 172
+      "Партер (детский)": 170
     },
-    "last_updated": "2026-10-28 17:03:12"
+    "last_updated": "2026-10-28 17:33:14"
   },
   "964": {
     "title": "08 ноября (вс) 17:00",
@@ -276,7 +276,7 @@
       "Партер": 105,
       "Балкон": 159
     },
-    "last_updated": "2026-10-28 17:03:23"
+    "last_updated": "2026-10-28 17:33:26"
   },
   "967": {
     "title": "12 ноября (чт) 19:00",
@@ -284,7 +284,7 @@
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s967",
     "available": 0,
     "zones": {},
-    "last_updated": "2026-10-28 17:03:34"
+    "last_updated": "2026-10-28 17:33:37"
   },
   "965": {
     "title": "14 ноября (сб) 17:00",
@@ -294,7 +294,7 @@
     "zones": {
       "Балкон": 127
     },
-    "last_updated": "2026-10-28 17:03:46"
+    "last_updated": "2026-10-28 17:33:50"
   },
   "968": {
     "title": "15 ноября (вс) 11:00",
@@ -304,7 +304,7 @@
     "zones": {
       "Партер (детский)": 202
     },
-    "last_updated": "2026-10-28 17:03:57"
+    "last_updated": "2026-10-28 17:34:02"
   },
   "969": {
     "title": "15 ноября (вс) 17:00",
@@ -315,7 +315,7 @@
       "Партер": 205,
       "Балкон": 154
     },
-    "last_updated": "2026-10-28 17:04:09"
+    "last_updated": "2026-10-28 17:34:15"
   },
   "970": {
     "title": "21 ноября (сб) 17:00",
@@ -325,7 +325,7 @@
     "zones": {
       "Балкон": 45
     },
-    "last_updated": "2026-10-28 17:04:20"
+    "last_updated": "2026-10-28 17:34:27"
   },
   "971": {
     "title": "22 ноября (вс) 17:00",
@@ -335,7 +335,7 @@
     "zones": {
       "Балкон": 86
     },
-    "last_updated": "2026-10-28 17:04:32"
+    "last_updated": "2026-10-28 17:34:40"
   },
   "972": {
     "title": "27 ноября (пт) 18:00",
@@ -346,27 +346,27 @@
       "Партер": 52,
       "Балкон": 181
     },
-    "last_updated": "2026-10-28 17:04:44"
+    "last_updated": "2026-10-28 17:34:53"
   },
   "973": {
     "title": "28 ноября (сб) 17:00",
     "event_name": "Ханума",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s973",
-    "available": 129,
+    "available": 127,
     "zones": {
-      "Балкон": 129
+      "Балкон": 127
     },
-    "last_updated": "2026-10-28 17:04:55"
+    "last_updated": "2026-10-28 17:35:06"
   },
   "974": {
     "title": "29 ноября (вс) 11:00",
     "event_name": "Маша и Витя против \"Диких гитар\"",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s974",
-    "available": 180,
+    "available": 178,
     "zones": {
-      "Партер (детский)": 180
+      "Партер (детский)": 178
     },
-    "last_updated": "2026-10-28 17:05:07"
+    "last_updated": "2026-10-28 17:35:17"
   },
   "975": {
     "title": "29 ноября (вс) 17:00",
@@ -377,7 +377,7 @@
       "Партер": 66,
       "Балкон": 189
     },
-    "last_updated": "2026-10-28 17:05:18"
+    "last_updated": "2026-10-28 17:35:30"
   },
   "999": {
     "title": "03 декабря (чт) 19:00",
@@ -385,7 +385,7 @@
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s999",
     "available": 0,
     "zones": {},
-    "last_updated": "2026-10-28 17:05:29"
+    "last_updated": "2026-10-28 17:35:41"
   },
   "981": {
     "title": "04 декабря (пт) 18:00",
@@ -396,18 +396,18 @@
       "Партер": 231,
       "Балкон": 206
     },
-    "last_updated": "2026-10-28 17:05:40"
+    "last_updated": "2026-10-28 17:35:54"
   },
   "982": {
     "title": "05 декабря (сб) 17:00",
     "event_name": "Утиная охота",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s982",
-    "available": 549,
+    "available": 543,
     "zones": {
-      "Партер": 345,
+      "Партер": 339,
       "Балкон": 204
     },
-    "last_updated": "2026-10-28 17:05:52"
+    "last_updated": "2026-10-28 17:36:07"
   },
   "983": {
     "title": "06 декабря (вс) 11:00",
@@ -417,7 +417,7 @@
     "zones": {
       "Партер (детский)": 384
     },
-    "last_updated": "2026-10-28 17:06:03"
+    "last_updated": "2026-10-28 17:36:19"
   },
   "984": {
     "title": "06 декабря (вс) 17:00",
@@ -428,7 +428,7 @@
       "Партер": 304,
       "Балкон": 204
     },
-    "last_updated": "2026-10-28 17:06:15"
+    "last_updated": "2026-10-28 17:36:31"
   },
   "997": {
     "title": "10 декабря (чт) 19:00",
@@ -436,40 +436,40 @@
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s997",
     "available": 0,
     "zones": {},
-    "last_updated": "2026-10-28 17:06:26"
+    "last_updated": "2026-10-28 17:36:42"
   },
   "985": {
     "title": "11 декабря (пт) 18:00",
     "event_name": "Братья Карамазовы",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s985",
-    "available": 380,
+    "available": 375,
     "zones": {
-      "Партер": 175,
+      "Партер": 170,
       "Балкон": 205
     },
-    "last_updated": "2026-10-28 17:06:38"
+    "last_updated": "2026-10-28 17:36:54"
   },
   "986": {
     "title": "12 декабря (сб) 17:00",
     "event_name": "Река Потудань",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s986",
-    "available": 449,
+    "available": 447,
     "zones": {
-      "Партер": 246,
+      "Партер": 244,
       "Балкон": 203
     },
-    "last_updated": "2026-10-28 17:06:50"
+    "last_updated": "2026-10-28 17:37:07"
   },
   "988": {
     "title": "13 декабря (вс) 17:00",
     "event_name": "Наливные яблочки",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s988",
-    "available": 241,
+    "available": 240,
     "zones": {
-      "Партер": 52,
+      "Партер": 51,
       "Балкон": 189
     },
-    "last_updated": "2026-10-28 17:07:01"
+    "last_updated": "2026-10-28 17:37:19"
   },
   "987": {
     "title": "13 декабря (вс) 11:00",
@@ -479,73 +479,73 @@
     "zones": {
       "Партер (детский)": 281
     },
-    "last_updated": "2026-10-28 17:07:13"
+    "last_updated": "2026-10-28 17:37:31"
   },
   "998": {
     "title": "19 декабря (сб) 11:00",
     "event_name": "Маленькая ведьма",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s998",
-    "available": 370,
+    "available": 364,
     "zones": {
-      "Партер": 164,
+      "Партер": 158,
       "Балкон": 206
     },
-    "last_updated": "2026-10-28 17:07:24"
+    "last_updated": "2026-10-28 17:37:43"
   },
   "995": {
     "title": "19 декабря (сб) 17:00",
     "event_name": "Наследники дядюшки Жоржа",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s995",
-    "available": 561,
+    "available": 559,
     "zones": {
-      "Партер": 355,
+      "Партер": 353,
       "Балкон": 206
     },
-    "last_updated": "2026-10-28 17:07:36"
+    "last_updated": "2026-10-28 17:37:56"
   },
   "990": {
     "title": "20 декабря (вс) 11:00",
     "event_name": "Маленькая ведьма",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s990",
-    "available": 321,
+    "available": 319,
     "zones": {
-      "Партер": 115,
+      "Партер": 113,
       "Балкон": 206
     },
-    "last_updated": "2026-10-28 17:07:48"
+    "last_updated": "2026-10-28 17:38:09"
   },
   "991": {
     "title": "20 декабря (вс) 17:00",
     "event_name": "Тётки",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s991",
-    "available": 405,
+    "available": 403,
     "zones": {
-      "Партер": 205,
+      "Партер": 203,
       "Балкон": 200
     },
-    "last_updated": "2026-10-28 17:07:59"
+    "last_updated": "2026-10-28 17:38:21"
   },
   "992": {
     "title": "25 декабря (пт) 18:00",
     "event_name": "Ночь перед Рождеством",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s992",
-    "available": 290,
+    "available": 285,
     "zones": {
-      "Партер": 93,
+      "Партер": 88,
       "Балкон": 197
     },
-    "last_updated": "2026-10-28 17:08:11"
+    "last_updated": "2026-10-28 17:38:33"
   },
   "989": {
     "title": "26 декабря (сб) 17:00",
     "event_name": "Наливные яблочки",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s989",
-    "available": 347,
+    "available": 344,
     "zones": {
-      "Партер": 147,
+      "Партер": 144,
       "Балкон": 200
     },
-    "last_updated": "2026-10-28 17:08:22"
+    "last_updated": "2026-10-28 17:38:46"
   },
   "993": {
     "title": "26 декабря (сб) 11:00",
@@ -556,28 +556,28 @@
       "Партер": 177,
       "Балкон": 200
     },
-    "last_updated": "2026-10-28 17:08:34"
+    "last_updated": "2026-10-28 17:38:59"
   },
   "996": {
     "title": "27 декабря (вс) 17:00",
     "event_name": "Театральный капустник \"Актёрская версия 8.0\"",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s996",
-    "available": 385,
+    "available": 382,
     "zones": {
-      "Партер": 181,
+      "Партер": 178,
       "Балкон": 204
     },
-    "last_updated": "2026-10-28 17:08:45"
+    "last_updated": "2026-10-28 17:40:09"
   },
   "994": {
     "title": "27 декабря (вс) 11:00",
     "event_name": "Маленькая ведьма",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s994",
-    "available": 348,
+    "available": 346,
     "zones": {
-      "Партер": 142,
+      "Партер": 140,
       "Балкон": 206
     },
-    "last_updated": "2026-10-28 17:08:57"
+    "last_updated": "2026-10-28 17:40:22"
   }
 }
