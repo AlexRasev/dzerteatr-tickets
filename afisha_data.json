@@ -348,11 +348,11 @@
     "title": "27 ноября (пт) 18:00",
     "event_name": "Ревизор",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s972",
-    "available": 80,
+    "available": 79,
     "zones": {
-      "Балкон": 80
+      "Балкон": 79
     },
-    "last_updated": "2026-11-24 09:30:50"
+    "last_updated": "2026-11-24 10:00:52"
   },
   "973": {
     "title": "28 ноября (сб) 17:00",
@@ -360,7 +360,7 @@
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s973",
     "available": 0,
     "zones": {},
-    "last_updated": "2026-11-24 09:31:02"
+    "last_updated": "2026-11-24 10:01:04"
   },
   "974": {
     "title": "29 ноября (вс) 11:00",
@@ -370,17 +370,17 @@
     "zones": {
       "Партер (детский)": 132
     },
-    "last_updated": "2026-11-24 09:31:13"
+    "last_updated": "2026-11-24 10:01:15"
   },
   "975": {
     "title": "29 ноября (вс) 17:00",
     "event_name": "Недоросль",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s975",
-    "available": 80,
+    "available": 79,
     "zones": {
-      "Балкон": 80
+      "Балкон": 79
     },
-    "last_updated": "2026-11-24 09:31:24"
+    "last_updated": "2026-11-24 10:01:26"
   },
   "999": {
     "title": "03 декабря (чт) 19:00",
@@ -388,7 +388,7 @@
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s999",
     "available": 0,
     "zones": {},
-    "last_updated": "2026-11-24 09:31:35"
+    "last_updated": "2026-11-24 10:01:36"
   },
   "981": {
     "title": "04 декабря (пт) 18:00",
@@ -399,7 +399,7 @@
       "Партер": 2,
       "Балкон": 112
     },
-    "last_updated": "2026-11-24 09:31:47"
+    "last_updated": "2026-11-24 10:01:48"
   },
   "982": {
     "title": "05 декабря (сб) 17:00",
@@ -410,7 +410,7 @@
       "Партер": 124,
       "Балкон": 186
     },
-    "last_updated": "2026-11-24 09:31:59"
+    "last_updated": "2026-11-24 10:01:59"
   },
   "983": {
     "title": "06 декабря (вс) 11:00",
@@ -420,28 +420,26 @@
     "zones": {
       "Партер (детский)": 320
     },
-    "last_updated": "2026-11-24 09:32:10"
+    "last_updated": "2026-11-24 10:02:10"
   },
   "984": {
     "title": "06 декабря (вс) 17:00",
     "event_name": "Маленький принц",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s984",
-    "available": 278,
+    "available": 280,
     "zones": {
-      "Партер": 111,
+      "Партер": 113,
       "Балкон": 167
     },
-    "last_updated": "2026-11-24 09:32:21"
+    "last_updated": "2026-11-24 10:02:22"
   },
   "997": {
     "title": "10 декабря (чт) 19:00",
     "event_name": "Повесть о том, как поссорился Иван Иванович с Иваном Никифоровичем",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s997",
-    "available": 1,
-    "zones": {
-      "Малый зал": 1
-    },
-    "last_updated": "2026-11-24 09:32:32"
+    "available": 0,
+    "zones": {},
+    "last_updated": "2026-11-24 10:02:32"
   },
   "985": {
     "title": "11 декабря (пт) 18:00",
@@ -451,18 +449,18 @@
     "zones": {
       "Балкон": 89
     },
-    "last_updated": "2026-11-24 09:32:43"
+    "last_updated": "2026-11-24 10:02:44"
   },
   "986": {
     "title": "12 декабря (сб) 17:00",
     "event_name": "Река Потудань",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s986",
-    "available": 348,
+    "available": 350,
     "zones": {
-      "Партер": 163,
+      "Партер": 165,
       "Балкон": 185
     },
-    "last_updated": "2026-11-24 09:32:55"
+    "last_updated": "2026-11-24 10:02:55"
   },
   "988": {
     "title": "13 декабря (вс) 17:00",
@@ -472,39 +470,39 @@
     "zones": {
       "Балкон": 31
     },
-    "last_updated": "2026-11-24 09:33:17"
+    "last_updated": "2026-11-24 10:03:17"
   },
   "987": {
     "title": "13 декабря (вс) 11:00",
     "event_name": "Волшебная лампа Аладдина",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s987",
-    "available": 141,
+    "available": 145,
     "zones": {
-      "Партер (детский)": 141
+      "Партер (детский)": 145
     },
-    "last_updated": "2026-11-24 09:33:06"
+    "last_updated": "2026-11-24 10:03:06"
   },
   "998": {
     "title": "19 декабря (сб) 11:00",
     "event_name": "Маленькая ведьма",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s998",
-    "available": 292,
+    "available": 294,
     "zones": {
-      "Партер": 103,
+      "Партер": 105,
       "Балкон": 189
     },
-    "last_updated": "2026-11-24 09:33:28"
+    "last_updated": "2026-11-24 10:03:29"
   },
   "995": {
     "title": "19 декабря (сб) 17:00",
     "event_name": "Наследники дядюшки Жоржа",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s995",
-    "available": 376,
+    "available": 374,
     "zones": {
-      "Партер": 182,
+      "Партер": 180,
       "Балкон": 194
     },
-    "last_updated": "2026-11-24 09:33:40"
+    "last_updated": "2026-11-24 10:03:40"
   },
   "990": {
     "title": "20 декабря (вс) 11:00",
@@ -515,7 +513,7 @@
       "Партер": 37,
       "Балкон": 193
     },
-    "last_updated": "2026-11-24 09:33:52"
+    "last_updated": "2026-11-24 10:03:51"
   },
   "991": {
     "title": "20 декабря (вс) 17:00",
@@ -526,7 +524,7 @@
       "Партер": 38,
       "Балкон": 156
     },
-    "last_updated": "2026-11-24 09:34:04"
+    "last_updated": "2026-11-24 10:04:03"
   },
   "992": {
     "title": "25 декабря (пт) 18:00",
@@ -534,7 +532,7 @@
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s992",
     "available": 0,
     "zones": {},
-    "last_updated": "2026-11-24 09:34:15"
+    "last_updated": "2026-11-24 10:04:14"
   },
   "989": {
     "title": "26 декабря (сб) 17:00",
@@ -544,7 +542,7 @@
     "zones": {
       "Балкон": 74
     },
-    "last_updated": "2026-11-24 09:34:27"
+    "last_updated": "2026-11-24 10:04:26"
   },
   "993": {
     "title": "26 декабря (сб) 11:00",
@@ -555,18 +553,18 @@
       "Партер": 14,
       "Балкон": 187
     },
-    "last_updated": "2026-11-24 09:34:38"
+    "last_updated": "2026-11-24 10:04:37"
   },
   "996": {
     "title": "27 декабря (вс) 17:00",
     "event_name": "Театральный капустник \"Актёрская версия 8.0\"",
     "url": "https://quicktickets.ru/dzerjinsk-dramteatr/s996",
-    "available": 148,
+    "available": 146,
     "zones": {
       "Партер": 1,
-      "Балкон": 147
+      "Балкон": 145
     },
-    "last_updated": "2026-11-24 09:35:01"
+    "last_updated": "2026-11-24 10:05:00"
   },
   "994": {
     "title": "27 декабря (вс) 11:00",
@@ -577,6 +575,6 @@
       "Партер": 78,
       "Балкон": 191
     },
-    "last_updated": "2026-11-24 09:34:49"
+    "last_updated": "2026-11-24 10:04:48"
   }
 }
